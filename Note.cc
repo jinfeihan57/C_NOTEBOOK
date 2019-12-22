@@ -3,7 +3,8 @@
 /*使用CMAKE 进行项目管理编译的工程，使用cmake -DCMAKE_BUILD_TYPE=REALEASE 来设置编译版本为release版。*/
 
 /*使用Linux内核接口 open文件已 O_WRONLY 模式打开，对磁盘操作如同对内存操作。进行及时写而不影响其他Byte。*/
-/*使用CMAKE 进行项目管理编译的工程，使用cmake -DCMAKE_BUILD_TYPE=REALEASE 来设置编译版本为release版。*/
+/*fopen文件已 "r+" 模式打开对其进行读写时，操作类似内存中的额字节读写*/
+
 /*Timsort 排序对于完全无序的数据效率没有 c++ 标准库的高，但是对于部分有序的序列效率较高，可以取代c++标准库中的stable_sort（稳定排序）。*/
-/*文件已 "r+" 模式打开对其进行读写时，操作类似内存中的额字节读写*/
+
 /*intel SIMD 指南 https://software.intel.com/sites/landingpage/IntrinsicsGuide/ */
