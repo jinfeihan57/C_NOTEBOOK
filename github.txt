@@ -1,3 +1,1 @@
-hello github;
-http://c.biancheng.net/cpp/biancheng/view/2994.html C++基础入门
-https://zh.cppreference.com/w/cpp/links/libs  c++库集合
+hello github
