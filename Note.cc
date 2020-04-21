@@ -8,3 +8,5 @@
 /*Timsort 排序对于完全无序的数据效率没有 c++ 标准库的高，但是对于部分有序的序列效率较高，可以取代c++标准库中的stable_sort（稳定排序）。*/
 
 /*intel SIMD 指南 https://software.intel.com/sites/landingpage/IntrinsicsGuide/ */
+
+/*7zip-zstd 项目中引用 lz4 并且实现了 lz4 的多线程压缩 多线程的模板*/
