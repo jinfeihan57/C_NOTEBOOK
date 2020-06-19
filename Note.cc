@@ -11,3 +11,7 @@
 
 /*7zip-zstd 项目中引用 lz4 并且实现了 lz4 的多线程压缩 多线程的模板 
   项目中C/zstdmt/threading.h和memmt.h以及zstd-mt_threading.c 构成了Unix和windows跨平台的多线程和内存操作*/
+
+gcc -fstack-protector-strong 选项，检测栈溢出
+https://outflux.net/blog/archives/2014/01/27/fstack-protector-strong/
+add gcc 选项-fno-stack-protector 修复 undefined reference to `__stack_chk_fail'
