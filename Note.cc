@@ -15,3 +15,6 @@
 gcc -fstack-protector-strong 选项，检测栈溢出
 https://outflux.net/blog/archives/2014/01/27/fstack-protector-strong/
 add gcc 选项-fno-stack-protector 修复 undefined reference to `__stack_chk_fail'
+
+内存泄漏安全检测
+ gcc -fsanitize=address -fno-omit-frame-pointer -fsanitize=leak -fsanitize=undefined  -g -O2 -static-libasan
