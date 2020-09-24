@@ -18,3 +18,5 @@ add gcc 选项-fno-stack-protector 修复 undefined reference to `__stack_chk_fa
 
 内存泄漏安全检测
  gcc -fsanitize=address -fno-omit-frame-pointer -fsanitize=leak -fsanitize=undefined  -g -O2 -static-libasan
+高压缩比算法
+http://mattmahoney.net/dc/zpaq_compression.pdf
