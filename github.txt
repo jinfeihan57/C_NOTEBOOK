@@ -1,1 +1,14 @@
 hello github
+
+
+# PR 提交
+从主仓库clone: git clone https://github.com/inikep/lzbench.git
+创建新分支并且换: git checkout -b pr
+修改代码
+把修改内容提交到暂存区: git add xxx
+从暂存区提交到本地版本库: git commit -m "doc"
+添加自己的远程仓库: git remote add upstream https://github.com/jinfeihan57/lzbench.git   // upstream 远程仓库别名
+查看远程仓库: git remote -v
+提交本地仓库到远程仓库: git push upstream pr:pr   // upstream 指定远程仓库 第一个pr本地分支，第二个pr远程仓库分支名
+
+删除远程仓库分支: git push upstream :pr    // 本地分支名不写，删除远程仓库upstream的分支pr
