@@ -23,4 +23,4 @@ add gcc 选项-fno-stack-protector 修复 undefined reference to `__stack_chk_fa
 http://mattmahoney.net/dc/zpaq_compression.pdf
 
 /* GNU gcc documentation */
-https://gcc.gnu.org/onlinedocs/
+https://gcc.gnu.org/
